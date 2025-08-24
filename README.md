@@ -80,8 +80,7 @@ Use our demo on Hugging Face Spaces:
 
 **Apply Deep Learning models (LSTM/Autoencoders).**
 
-حp
-prepared by moazmohamed
+**prepared by moazmohamed**
 
 [linkedin](https://www.linkedin.com/in/moaz-mohamed-545725375/)
 
