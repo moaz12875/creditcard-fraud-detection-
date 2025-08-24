@@ -15,13 +15,39 @@ Each transaction is labeled as:
 
 1 → Fraudulent
 
+## 🤖 Model Comparison  
+
 We experimented with several models to identify the best fraud detection approach.
-Model Comparison
-Model	Accuracy	Precision	Recall	F1-Score
-Logistic Regression	94%	0.72	0.62	0.67
-K-Nearest Neighbors	95%	0.75	0.64	0.69
-Decision Tree	91%	0.68	0.61	0.64
-Random Forest	97%	0.83	0.74	0.78
-XGBoost (final)	99%	0.92	0.88	0.90
+
+
+| Model                  | Accuracy | Precision | Recall | F1-Score |
+|-------------------------|----------|-----------|--------|----------|
+| Logistic Regression     | 94%      | 0.72      | 0.62   | 0.67     |
+| K-Nearest Neighbors     | 95%      | 0.75      | 0.64   | 0.69     |
+| Decision Tree           | 91%      | 0.68      | 0.61   | 0.64     |
+| Random Forest           | 97%      | 0.83      | 0.74   | 0.78     |
+| **XGBoost (final)**     | **99%**  | **0.92**  | **0.88** | **0.90** |
+
 ✅ XGBoost was selected as the final model due to its superior performance
 
+
+⚡ Features
+
+Data Preprocessing:
+
+Scaling transaction amounts.
+
+Handling class imbalance with undersampling/oversampling.
+
+Visualization:
+
+Fraud probability meter (green → orange → red).
+
+HTML transaction summary table.
+
+Gradio Web App:
+
+User inputs: Country, Transaction Type, Amount, Time, Device Type, Recurring.
+
+
+Real-time fraud probability output with alerts.
