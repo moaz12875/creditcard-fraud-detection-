@@ -1,5 +1,3 @@
-# creditcard-fraud-detection-
-"Credit Card Fraud Detection using XGBoost with Gradio interface. This project trains a machine learning model on transaction data to identify fraudulent activity. Features preprocessing, probability visualization, custom CSS UI, and real-time prediction demo for fraud risk detection."
 # 🚨 Credit Card Fraud Detection 💳  
 This project focuses on detecting fraudulent credit card transactions using XGBoost and other machine learning models. The final app is deployed with a Gradio interface for real-time fraud risk prediction, supported by a custom CSS design and interactive probability visualization.
 
@@ -28,7 +26,7 @@ We experimented with several models to identify the best fraud detection approac
 ✅ XGBoost was selected as the final model due to its superior performance
 
 
-⚡ Features
+## ⚡ Features
 
 
 - **Data Preprocessing:**  
@@ -56,13 +54,13 @@ Use our demo on Hugging Face Spaces:
 [👉 Try it Live](https://huggingface.co/spaces/Moaz-ai/creditcard)
 
 ## 📒 Notebook
-We included a Jupyter Notebook (notebooks/fraud_detection.ipynb) for:
+**We included a Jupyter Notebook (notebooks/fraud_detection.ipynb) for:**
 
-Exploratory Data Analysis (EDA).
+**Exploratory Data Analysis (EDA).**
 
-Model training & evaluation.
+**Model training & evaluation.**
 
-Feature importance visualization.
+**Feature importance visualization.**
 
 [view on colab](https://colab.research.google.com/drive/1LvlK4Q9-3IHKsqoe8bbizo2UCSZNuf6V?authuser=0#scrollTo=PpFjUYL10Mv5)
 
@@ -78,9 +76,10 @@ Feature importance visualization.
 
 ## 🎯 Future Work
 
-Integrate with real-time transaction streams(Kafka/Flask API).
+**Integrate with real-time transaction streams(Kafka/Flask API).**
 
-Apply Deep Learning models (LSTM/Autoencoders).
+**Apply Deep Learning models (LSTM/Autoencoders).**
+
 حp
 prepared by moazmohamed
 
